@@ -2,23 +2,23 @@
 /* CSS Code */
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;               /* display flex karne se ham cotainer ko man chahe uss jagah hila sakte hain */
+    justify-content: center;     /* isse ham container ko center me la sakte hain */
+    align-items: center;         /* text ko center me lata hai */
     height: 100vh;
 }
 
-.youtube{
-    padding: 15px 35px;
+.youtube{                        /* YouTube button */
+    padding: 15px 35px;          /* container and border ke bich ka space badhata hain */
     color: white;
     background-color: #FF0000;
-    border: none;
+    border: none;                
     border-radius: 2cm;
     font-size: 18px;
     font-weight: bold;
-    cursor:pointer;
+    cursor:pointer;              /* jab ham youtube button par apna cursor rakhenge tab hamara cursor pointer me convert ho jayega */
     box-shadow: 11px 11px 20px rgba(0, 0, 0, 0.23);
-    transition: all 0.3s ease;
+    transition: all 0.3s ease;   
     
 
 }
