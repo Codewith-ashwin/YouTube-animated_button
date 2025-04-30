@@ -1,0 +1,58 @@
+# YouTube-animated_button
+code of animated button of YouTube
+
+<!-- Html Code -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="https://www.youtube.com" target="_blank">
+            <button class="youtube">
+                YOUTUBE
+            </button>
+        </a>
+    </div>
+    
+</body>
+</html>
+
+/* CSS Code */
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.youtube{
+    padding: 15px 35px;
+    color: white;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 2cm;
+    font-size: 18px;
+    font-weight: bold;
+    cursor:pointer;
+    box-shadow: 11px 11px 20px rgba(0, 0, 0, 0.23);
+    transition: all 0.3s ease;
+    
+
+}
+.youtube:hover {
+    background-color: white;
+    color: red;
+    transform: scale(1.2);
+}
+
+
+
